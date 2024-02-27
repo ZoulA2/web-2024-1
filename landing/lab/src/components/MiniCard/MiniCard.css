@@ -1,0 +1,331 @@
+
+.cardcont{
+    background-image: linear-gradient(60deg, rgb(25, 113, 134), rgb(4, 81, 170)); 
+    margin-top: 00px;
+   
+   display: flex;
+    width: 306px;
+    height: 390px;
+  justify-content: center;
+ 
+ 
+
+}
+
+.cardcontwo{
+    background-image: linear-gradient(60deg, rgb(25, 113, 134), rgb(4, 81, 170)); 
+    margin-top: 00px;
+    
+   
+   display: flex;
+    width: 306px;
+    height: 390px;
+  justify-content: center;
+  margin-left: 10px;
+ 
+
+}
+
+.cardconthree{
+    background-color: #adc7e7;
+    margin-top: 00px;
+   position: absolute;
+   display: flex;
+    width: 306px;
+    height: 190px;
+  justify-content: center;
+  margin-left: 630px;
+ 
+
+}
+
+.cardcontfour{
+    background-color: #adc7e7;
+    margin-top: 200px;
+   position: absolute;
+   display: flex;
+    width: 306px;
+    height: 190px;
+  justify-content: center;
+  margin-left: 630px;
+ 
+
+}
+
+
+
+.allcont{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 945px;
+    width: 1000px;
+    
+     margin-top: 10px;
+     position: relative;
+     
+}
+
+
+
+.minis-container{
+        display: flex;
+width: 1000px;
+    
+    
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 405px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
+
+.minis-container::-webkit-scrollbar{
+  display: none;
+
+}
+.games{
+    height: 306px;
+ 
+    width: 306px;
+    position: absolute;
+      
+  }
+ 
+  .gamesmoll{
+    height: 140px;
+ 
+    width: 306px;
+    position: absolute;
+  }
+
+.txtsmoll{
+    display: flex; 
+flex-direction: column;
+width: 500px;
+ height: 40px;
+ margin-top: -100px;
+margin-left: -50px;
+color:#243140;
+ position: absolute;
+
+}
+
+.copsmoll{
+    margin-top: -46px;
+    color:#243140;
+    margin-left: 70px;
+}
+
+
+
+.txtcont{
+display: flex; 
+flex-direction: column;
+width: 150px;
+ margin-left:-420px;
+ margin-top: 55px;
+ position: absolute;
+}
+.gtext{
+    display: flex; 
+    flex-direction: column;
+    width: 150px;
+ margin-left:-470px
+}
+
+.ggone{
+margin-left: 120px; 
+margin-top: 250px;
+width: 150px;
+font-weight:normal;
+}
+.gtxt{
+ margin-left: 90px; 
+ margin-top: -15px;
+ width: 200px;
+ font-weight:normal;
+ font-size: 9px;
+}
+.gcop{
+margin-left: 135px;
+margin-top: -7px;
+font-weight:normal;
+}
+
+  
+
+@media screen and (max-width: 762px){
+
+
+    .allcont{
+        display: flex;
+        flex-direction: row;
+        flex: 0 0 3830px;
+        width: 1000px;
+        
+         margin-top: 10px;
+         position: relative;
+         
+    }
+
+
+
+    .minis-container{
+     display: flex;
+    width: 1600px;
+    
+    
+    justify-content: space-between;
+    margin-top: -900px;
+    margin-left: -5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    }
+
+
+    .games{
+        height: 1300px;
+      margin-left: 0px;
+        width: 1256px;
+        
+        
+   
+      }
+
+
+.cardcont{
+
+    margin-top: 900px;
+    margin-left:110px;
+   
+    z-index: 5;
+   display: flex;
+   flex-direction: row;
+    width: 1256px;
+    height: 1620px;
+    
+
+    
+}
+
+.cardcontwo{
+
+    margin-top: 900px;
+   
+   
+   
+    z-index: 5;
+   display: flex;
+   flex-direction: row;
+    width: 1256px;
+    height: 1620px;
+   
+
+    
+}
+.cardconthree{
+    background-color: #adc7e7;
+    margin-top: 900px;
+    margin-left: 2650px;
+   position: absolute;
+   display: flex;
+    width: 1256px;
+    height: 800px;
+  justify-content: center;
+ 
+  ;
+ 
+
+}
+
+
+.cardcontfour{
+    background-color: #adc7e7;
+    margin-top: 1750px;
+   position: absolute;
+   display: flex;
+    width: 1256px;
+    height: 800px;
+  justify-content: center;
+  margin-left: 2650px;
+ 
+
+}
+
+.gamesmoll{
+    height: 645px;
+    width: 1256px;
+
+    position: absolute;
+  }
+
+  
+
+
+.txtsmoll{
+    display: flex; 
+flex-direction: column;
+width: 1008px;
+font-size: 70px;
+ margin-top: 350px;
+margin-left: -500px;
+ position: absolute;
+
+}
+
+.copsmoll{
+    margin-top: -165px;
+    margin-left: 520px;
+    font-size: 70px;
+font-weight:bolder;
+}
+
+
+
+.txtcont{
+display: flex; 
+flex-direction: column;
+width: 150px;
+ margin-left:-1400px;
+ margin-top: 1000px;
+ position: absolute;
+}
+.gtext{
+    display: flex; 
+    flex-direction: column;
+    width: 150px;
+    
+ margin-left:-470px
+}
+
+.ggone{
+margin-left: 120px; 
+margin-top: 290px;
+width: 498px;
+font-size: 70px;
+font-weight:normal;
+}
+.gtxt{
+ margin-left: 95px; 
+ margin-top: -70px;
+ width: 700px;
+ font-weight:normal;
+ font-size: 50px;
+}
+.gcop{
+margin-left: 173px;
+margin-top: -20px;
+font-size: 70px;
+font-weight:bolder;
+}
+
+  
+
+
+
+
+
+
+
+}

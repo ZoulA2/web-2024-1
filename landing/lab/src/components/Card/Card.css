@@ -1,0 +1,103 @@
+
+
+
+
+    .back{
+    background-color: #1a222c;
+    margin-top: 260px; 
+    top: 0px;
+    margin-left: 445px;
+    margin-right: 700px;
+    position: absolute;
+    
+     width: 55%;
+      height: 350px;
+  
+    }
+    
+    .game{
+        
+        width: 550px;
+        height: 350px;
+        margin-left: -40px;
+        
+        
+      }
+      
+      .prev{
+        height: 70px;
+        width: 120px;
+      
+        padding-right: 10px;
+        padding-top: 10px;
+       
+      }
+
+      .resp{
+        margin-left: 380px;
+        margin-top: -350px;
+        font-weight:normal;
+
+      }
+
+      .respone{
+        margin-left: -320px;
+        margin-top: -7px;
+        font-weight:normal;
+      }
+
+    
+
+
+
+@media screen and (max-width: 762px){
+
+   .prev{
+
+    display: none;
+   }
+
+   .game{
+
+    height: 850px;
+    width: 1266px;
+ margin-left: 2px;
+  
+  
+  }
+  
+  .back{
+  background-color: #1a222c;
+    height: 1150px;
+    width: 150vh;
+    margin-top: 1500px;
+    margin-left: 110px;
+
+    
+    
+    
+  }
+  
+  .resp{
+    margin-top: 50px;
+    margin-left: -800px;
+    font-size: 70px;
+    font-weight: bolder;
+  }
+  
+  .respone{
+    margin-top: -170px;
+  margin-left: -1250px;
+    font-size: 50px;
+    font-weight: bolder;
+
+  }
+
+  .Gone{
+    display:
+    none
+  }
+
+
+
+}

@@ -1,0 +1,55 @@
+.Nav{ margin-top: 470px;
+background-color: #1b458c;
+    margin-left: 405px; 
+    margin-right: 500px;
+    
+     position: relative;
+       display:flex;
+       
+       flex-direction: row;
+       width: 90vh;
+       height: 3vh;
+       justify-content:center;
+
+}
+
+.navtext{
+
+padding: 0px 10px;
+font-size: 15px;
+ margin: -3px;
+ font-weight:normal;
+}
+
+@media screen and (max-width: 762px){
+
+.Nav{
+    background-color: #1b458c;
+    padding: 399px;
+  
+    margin-left: 65px; 
+    margin-top: 410px;
+
+    display:flex;
+       
+    flex-direction: column;
+
+    align-items: flex-start;
+    
+
+}
+
+.navtext{
+
+    
+    font-weight:bolder;
+    font-size:60px;
+    padding-bottom: 40px;
+    display:flex;
+    justify-content: flex-start;
+    margin-left: -350px;
+
+}
+
+
+}

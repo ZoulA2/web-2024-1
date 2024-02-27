@@ -1,0 +1,131 @@
+
+.category-container{
+
+
+  
+  width: 250px;
+     height: 350px;
+justify-content: center;
+
+display: flex;
+flex: 0 0 300px;
+position: relative;
+}
+
+
+
+.categories-container{
+    display: flex;
+width: 1025px;
+    flex-direction: row;
+    justify-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-top: 30px;
+    margin-left: 380px;
+    padding-left: 0px;
+
+    
+    
+}
+
+.categories-container::-webkit-scrollbar{
+    display: none;
+
+}
+
+.cat-img{
+    height: 270px;
+    width: 250px;
+    z-index: 5;
+    position: absolute;
+    
+ 
+    
+   
+}
+
+.gradient{
+    background-image: linear-gradient(360deg, rgba(0, 251, 255, 0.4), rgba(161, 35, 35, 0.073)); 
+width: 250px;
+height: 270px;
+z-index: 6;
+position: absolute;
+
+
+
+
+
+}
+
+.name{
+    margin-top: 190px;
+ 
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    z-index: 7;
+}
+
+
+
+
+@media screen and (max-width: 762px){
+
+
+    .categories-container{
+        display: flex;
+        width: 1600px;
+        height: 1000px;
+        flex-direction: row;
+        margin-top: 100px;
+        margin-left: 10px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        
+        
+    }
+
+    .category-container{
+          margin-left: 100px;
+          width: 1000px;
+          height: 350px;
+        justify-content: center;
+        display: flex;
+        flex: 0 0 950px;
+        position: relative;
+        }
+        
+        .cat-img{
+            width: 1000px;
+            height: 1000px;
+          
+        }
+
+        .gradient{
+            background-image: linear-gradient(360deg, rgba(136, 0, 255, 0.4), rgba(161, 35, 35, 0.073)); 
+        width: 1000px;
+        height: 1000px;
+        margin-left: 0px;
+        position:absolute
+        
+        }
+        
+        .name{
+            margin-top: 800px;
+            position: absolute;
+            font-size: 70px;
+            display: flex;
+            
+            z-index: 7;
+        }
+        
+
+
+
+
+}
+
+
+
