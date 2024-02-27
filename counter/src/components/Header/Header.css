@@ -1,0 +1,10 @@
+.head{
+    background-color: brown;
+    width: 195vh;
+    margin-left: -100px;
+    height: 100px;
+   margin-top: -20px;
+    box-shadow: 0px 50px rgba(57, 3, 3, 0.316);
+    position: absolute;
+    z-index: 7;
+}
